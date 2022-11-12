@@ -1,0 +1,36 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(5, 5, 5, 0.5), rgba(5, 5, 5, 0.5)), url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+header{
+    margin:5rem;
+}
+
+.logo{
+    margin-left: 0px;
+    justify-content: center;
+    width: 9rem;
+    height:7rem;
+}
+.btn-xl{
+    font-size: 23px;
+    height: 3rem;
+    width: 15rem;
+}
+.btn-primary{
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    font-weight: 500;
+    border-radius: 10px;
+    
+}
+.btn-primary:hover{
+    background-color: rgb(67, 112, 67);
+    border-color:rgb(67, 112, 67) ;
+}
